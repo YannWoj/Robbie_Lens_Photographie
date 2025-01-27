@@ -1,0 +1,107 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Manrope", serif;
+   box-sizing: border-box;
+}
+
+h1 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 3.5em;
+   color: #a5b4fc;
+   font-weight: 500;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+a:visited {
+   color: inherit;
+}
+
+header,
+footer {
+   padding: 20px 50px;
+}
+
+nav,
+footer {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+nav a,
+footer a {
+   margin-left: 30px;
+}
+
+nav a:hover {
+   text-decoration: underline;
+}
+
+nav a:active {
+   opacity: 0.7;
+}
+
+nav img:hover,
+footer img:hover {
+   opacity: 0.7;
+}
+
+nav img:active,
+footer img:active {
+   opacity: 0.5;
+}
+
+section {
+   padding: 80px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1005px) {
+   nav {
+      flex-direction: column;
+   }
+   nav img {
+      margin-bottom: 20px;
+   }
+   nav a {
+      font-size: 1em;
+   }
+}
+
+@media screen and (max-width: 750px) {
+   footer {
+      padding: 20px 20px;
+   }
+}
+
+@media screen and (max-width: 380px) {
+   nav a {
+      margin-left: 15px;
+   }
+}
+
+@media screen and (max-width: 334px) {
+   nav a {
+      margin-left: 10px;
+   }
+}
+
+@media screen and (max-width: 319px) {
+   nav a {
+      margin-left: 5px;
+   }
+}
+
+@media screen and (max-width: 280px) {
+   nav div {
+      display: flex;
+      flex-direction: column;
+   }
+}

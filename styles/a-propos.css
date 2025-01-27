@@ -1,0 +1,119 @@
+main {
+   background-color: #1f2039;
+}
+
+p,
+h2,
+li,
+.a-propos-main a:visited,
+.a-propos-main a,
+th,
+td {
+   color: #f9f8ff;
+}
+
+h1,
+h2,
+.voir-portfolio {
+   text-align: center;
+}
+
+h2 {
+   margin-top: 30px;
+   margin-bottom: 80px;
+}
+
+p,
+li {
+   font-size: 1.1em;
+}
+
+.a-propos-main {
+   margin: auto;
+}
+
+.container1 {
+   padding: 50px;
+   border-bottom: 1px solid #8e86b5;
+   border-right: 1px solid #8e86b5;
+   width: 50%;
+   margin: auto;
+   margin-bottom: 80px;
+}
+
+.voir-portfolio a {
+   text-transform: uppercase;
+   padding: 20px 30px;
+   background: linear-gradient(#8e86b5, #acaeed);
+   border-radius: 50px;
+   display: inline-block;
+}
+
+.voir-portfolio a:hover {
+   background: linear-gradient(#696484, #8788ba);
+}
+
+table {
+   color: white;
+   text-align: center;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th {
+   padding: 15px;
+   font-size: 1.1em;
+}
+
+td,
+th {
+   border: 1px solid #a5b4fc;
+}
+
+td {
+   padding: 80px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1000px) {
+   .section-tarifs {
+      display: none;
+   }
+   h1 {
+      font-size: 2.5em;
+   }
+   .container1 {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width: 750px) {
+   h1 {
+      font-size: 2.5em;
+   }
+   .container1 {
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   .container1 {
+      width: 100%;
+   }
+   section {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .container1 {
+      width: 100%;
+      padding: 20px;
+   }
+   section {
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+}
